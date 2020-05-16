@@ -1,0 +1,16 @@
+Example using deno.
+
+
+docker-compose up
+
+localhost:8080/books 
+localhost:8080/books/:isbn
+localhost/books =>POST => Add new book
+localhost/books =>POST => PUT update book
+localhost/books/:isbn =>DELETE => Delete a book
+
+get('/books', getBooks)
+get('/books/:isbn', getBook)
+post('/books', addBook)
+put('/books/:isbn', updateBook)
+delete('/books/:isbn', deleteBook)
